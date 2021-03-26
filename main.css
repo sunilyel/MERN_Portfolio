@@ -21,19 +21,18 @@
 }
 
 .image_container {
-  flex: 0.5;
+  flex: 0.7;
   background: url(./images/profile.jpg);
-  /* background-repeat: no-repeat;
-  background-size: cover; */
   /* clip-path: polygon(0% 0%, 70% 0%, 100% 50%, 70% 100%, 0% 100%); */
-  clip-path: circle();
-  background-size: contain;
-  background-position: 50%;
-  height: 400px;
+  clip-path: polygon(0% 0%, 70% 0%, 100% 50%, 70% 100%, 0% 100%);
+  background-size: cover;
 }
 
-.info_container {
-  flex: 0.5;
+.main_container {
+  flex: 0.3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar_heading {
